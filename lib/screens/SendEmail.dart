@@ -29,7 +29,7 @@ class _SendEmailState extends State<SendEmail> {
     Widget build(BuildContext context) {
         return Scaffold(
         appBar: AppBar(
-            title: const Text('Verficivacion de correo'),
+            title: const Text('Verficicacion de correo'),
             backgroundColor: Colors.blue,
         ),
         body: Center(

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import "package:practica1/screens/ResetPassword.dart";
 import "package:practica1/screens/login.dart";
 import "package:practica1/screens/SendEmail.dart";
 import "package:practica1/screens/CodeConfirmation.dart";
@@ -19,7 +20,7 @@ class MainApp extends StatelessWidget {
         '/':(context)=> const Login(),
         '/SendEmail':(context)=> const SendEmail(),
         '/CodeConfirmation':(context)=> const CodeConfirmation(),
-
+        '/ResetPassword':(context)=> const ResetPassword(),
       },
     );
   }
